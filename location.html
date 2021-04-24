@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apprizers</title>
+    <link rel="stylesheet" href="location.css">
+    <link rel="shortcut icon" href="images/IMG_20210404_214424_841.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    
+    
+    <div class="side-nav">
+        <div class="container">
+            <div class="d-none d-lg-block logo">
+                <img src="images/Apprizee-05.svg" alt="" height="100px" width="" class="appr-logo">
+                <h4 style="color: #23AD61; font-style: normal; font-weight: 900; font-size: 20px; line-height: 36px; letter-spacing: 0.04em;">Apprizee</h4>
+            </div>
+
+            <!-- Input location side -->
+            <div class="container">
+                <div class="border-rounded">
+                    <div class="d-sm-block d-lg-none  logo">
+                        <img src="images/Apprizee-05.svg" alt="" height="100px" width="" class="appr-logo">
+                        <h4 style="color: #23AD61; font-style: normal; font-weight: 900; font-size: 20px; line-height: 36px; letter-spacing: 0.04em;">Apprizee</h4>
+                    </div>
+                    <div class="container mt-5 pt-3 mt-lg-2">
+                        <div class="input-container">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <input type="text" class="form-control mt-3" placeholder="UNILAG SECOND GATE">
+                        </div>
+
+                        <div class="row ms-2 mt-3">
+                           <div class="col-xs-12 d-flex justify-content-between">
+                               <div class="d-flex">
+                                <button class="btn-tracks"><i class="fas fa-bus mt-1"></i></button>
+                                <p class="ms-2 mt-3" style="font-size: 14px;">Bus</p> 
+                               </div>
+                            
+                          
+                           <div class="d-flex">
+                            <button class="btn-tracks"><i class="far fa-walking mt-1"></i> </button>
+                            <p class="ms-2 mt-3"  style="font-size: 14px; color: #B4B4B4;">Walk</p> 
+                           </div>
+
+                           <div class="d-flex">
+                            <button class="btn-tracks"><i class="far fa-biking mt-1"></i></button>
+                            <p class="ms-2 mt-3"  style="font-size: 14px; color: #B4B4B4;">Bike</p> 
+                           </div>
+
+
+                        </div>
+                        <div class="ms-xl-5 ps-xl-5 mt-3">
+                            <span class="dot1"></span>
+                            <span class="dot1"></span>
+                            <span class="dot2"></span>
+                          </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                
+            </div>
+            <!-- Input location side ends here -->
+
+            <!-- start the journey -->
+            <div class="border2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 mt-4">
+                            <div class="d-flex justify-content-between">
+                                <div><span class="dot-black ms-1 mt-4 "></span><span class="ms-2" style="font-size:14px; margin-top: 10px; color: #333333;">From Yaba</span></div>
+                                <i class="fas fa-bus" id="bus2"></i>
+                            </div>
+                            <div style="line-height: 1px;">
+                                <div><span class="dot-black2 ms-2"></span></div>
+                                <div><span class="dot-black2 ms-2"></span></div>
+                                <div><span class="dot-black2 ms-2"></span></div>
+                                <div class="d-flex">
+                                    <span class="dot-regular"></span>
+                                    <span class="ms-1" style="font-size:10px; color: #333333">To Unilag Main gate</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                       
+
+                        <div class="col-lg-12 d-flex justify-content-between" style=" margin-top:-2rem; font-size: 16px; font-weight: bold;">
+                            <p class="mt-4"></p>Estimated Time:31mins (2.5km)</p>
+                            <button style="border: none; background-color: #ffffff;"><i class="fa fa-share-alt mb-5"></i></button>
+                        </div>
+                       
+                    
+                    </div>
+
+                </div>
+                     <div class="text-center mt-1 d-none d-lg-block"><a href="location-guide.html"><button class="btn">Start</button></div></a>
+                     <div class="text-center mt-1 d-xs-block d-lg-none" ><a href="direction-view.html"><button class="btn">Start</button></div></a>
+                        <!-- start the journey(ends here) -->
+                     
+                     
+                    
+            </div>
+
+        </div>
+
+    </div>
+    
+<script src="bootstrap.js"></script>
+<script src="bootstrap.bundle.js"></script>
+<script src="bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>

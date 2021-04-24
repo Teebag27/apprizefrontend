@@ -1,0 +1,267 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/map.jpg);
+    background-attachment: fixed;
+    position: relative;
+}
+
+.side-nav{
+    position: absolute;
+    height: 65rem;
+    width:26rem;
+    border:1px solid #ffffff;
+    border-radius: 0px 20px 20px 0px;
+    background: #F8F8F8;
+    box-shadow: 0px 4px 10px rgba(95, 95, 95, 0.25);
+    visibility: visible;
+}
+
+.logo{
+    position: absolute;
+    left:0;
+}
+
+.appr-logo{
+    margin-top: -1rem;
+}
+
+h4{
+    position: absolute;
+    top:10px;
+    margin-left: 6rem;
+}
+
+.border-rounded{
+    position: absolute;
+    height:12rem;
+    width:22rem;
+    border: 1px solid #ffffff;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(95, 95, 95, 0.25);
+    border-radius: 10px;
+    margin-top: 4rem;
+    visibility: visible;
+}
+
+.input-container{
+    display: flex;
+}
+
+input{
+    color: #B4B4B4 !important;
+    font-size: 14px !important;
+    padding-left: 2rem !important;
+    position: relative;
+}
+
+.fa-map-marker-alt{
+    position: absolute;
+    color: #14211A;
+    margin-top: 1.5rem;
+    z-index:100;
+    padding-left: 1rem;
+}
+
+
+.fa-bus, .fa-biking, .fa-walking{
+    color: #B4B4B4;
+}
+
+.btn-tracks{
+    border:none;
+    background-color: #ffffff;
+}
+
+.fa-biking:hover, .fa-walking:hover, .fa-bus:hover{
+    color: #146263
+}
+
+
+.dot1{
+  height: 13px;
+  width: 13px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  background-color:#F2F2F2;
+}
+.dot2{
+  height: 13px;
+  width: 13px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  background-color:#23AD61;
+}
+
+.border2{
+    position: absolute;
+    height:45rem;
+    width:24rem;
+    border: 1px solid #ffffff;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(95, 95, 95, 0.25);
+    margin-top: 17rem;
+    margin-left: 0rem;
+    visibility: visible;
+}
+
+#locate{
+    color: #23AD61;
+}
+
+.dot-black{
+  height: 9.79px;
+  width: 9.79px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  background-color:#333333;
+  margin-bottom: 0px;
+  margin-left: 7.5px;
+}
+
+.dot-black2{
+  height: 3.26px;
+  width: 3.26px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  background-color:#333333;
+ margin-left: 3px;
+ margin-bottom: 12px;
+}
+
+.dot-regular{
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  display: inline-block;
+ border: 2px solid #333333;
+  margin-left: 5.5px;
+  margin-bottom: 55px;
+}
+
+
+#bus2{
+    background-color: #f2f2f2;
+    padding:15px;
+    border-radius: 100%;
+}
+
+.btn{
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #23AD61 !important;
+    color: #ffffff !important;
+    margin-top: -20px;
+}
+
+@media (max-width:768px) {
+    body{
+        background-image: url(images/map.jpg);
+        background-attachment: fixed;
+        position: relative;
+    }
+
+    .side-nav{
+        position: absolute;
+        height: 100vh;
+        width:22rem;
+        border:1px solid #ffffff;
+        border-radius: 0px 20px 20px 0px;
+        background: #F8F8F8;
+        box-shadow: 0px 4px 10px rgba(95, 95, 95, 0.25);
+        visibility: hidden;
+    }
+    
+    .border-rounded{
+        position: absolute;
+        height:21rem;
+        width:22rem;
+        left:50%;
+        border: 1px solid #ffffff;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 10px rgba(95, 95, 95, 0.25);
+        border-radius: 10px;
+        margin-top: 5rem;
+        visibility: visible;
+    }
+
+    .border2{
+        position: absolute;
+        height:46rem;
+        width:30rem;
+        border: 1px solid #ffffff;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 10px rgba(95, 95, 95, 0.25);
+        margin-top: 28rem;
+        padding-top: 1rem;
+        visibility: visible;
+        left:31%;
+    }
+}
+
+
+@media (max-width:600px){
+    .border-rounded{
+        position: absolute;
+        left:26%;
+        visibility: visible;
+    }
+    .border2{
+        position: absolute;
+        left:10%;
+        visibility: visible;
+    }
+}
+
+@media (max-width:450px){
+    .border-rounded{
+        position: absolute;
+        left:12%;
+        visibility: visible;
+    }
+    .border2{
+        position: absolute;
+        left:7%;
+        width:24rem;
+        visibility: visible;
+    }
+}
+
+@media (max-width:400px){
+    .border-rounded{
+        position: absolute;
+        width:20rem;
+        left:8%;
+        visibility: visible;
+    }
+    .border2{
+        position: absolute;
+        width:22rem;
+        left:4%;
+        visibility: visible;
+    }
+}
+
+@media (max-width:350px){
+    .border-rounded{
+        position: absolute;
+        width:20rem;
+        left:4%;
+        visibility: visible;
+    }
+    .border2{
+        position: absolute;
+        width:21rem;
+        left:2%;
+        visibility: visible;
+    }
+}

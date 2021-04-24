@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/map.jpg);
+    background-attachment: fixed;
+    position: relative;
+    /* visibility: visible; */
+}
+
+
+
+.side-nav{
+    position: absolute;
+    height: 100vh;
+    width:22rem;
+    border:1px solid #ffffff;
+    border-radius: 0px 20px 20px 0px;
+    background: #F8F8F8;
+    box-shadow: 0px 4px 10px rgba(95, 95, 95, 0.25);
+    visibility: visible;
+}
+
+.logo{
+    position: absolute;
+    left:0;
+}
+
+.appr-logo{
+    margin-top: -1rem;
+}
+
+h4{
+    position: absolute;
+    top:10px;
+    margin-left: 6rem;
+}
+
+.rounded-border{
+    position: absolute;
+    height:22rem;
+    width:18rem;
+    border: 1px solid #ffffff;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(95, 95, 95, 0.25);
+    border-radius: 10px;
+    margin-top: 5rem;
+}
+
+.rounded-border2{
+    position: absolute;
+    height:14rem;
+    width:20rem;
+    border: 1px solid #ffffff;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(95, 95, 95, 0.25);
+    border-radius: 10px;
+    margin-top: 25rem;
+    visibility: hidden;
+}
+
+.input-container{
+    display: flex;
+}
+
+#button-locate{
+    color: #000000 !important;
+    font-size: 12px !important;
+    padding-left: -10rem !important;
+    position: relative;
+    width:100%;
+    background-color: #F2F2F2 !important;
+    font-weight: bold !important;
+}
+
+.fa-search-location{
+    position: absolute;
+    color: #14211A;
+    margin-top: 1rem;
+    z-index:100;
+    padding-left: 1rem;
+}
+
+.fa-bus{
+    color: #B4B4B4;
+}
+
+.fa-biking, .fa-walking{
+    color: #B4B4B4;
+}
+
+#navigate{
+    border:none;
+    background-color: #ffffff;
+}
+
+.fa-biking:hover, .fa-walking:hover, .fa-bus:hover{
+    color: #146263
+}
+
+
+.dot1{
+  height: 13px;
+  width: 13px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  background-color:#23AD61;
+}
+.dot2{
+  height: 13px;
+  width: 13px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  background-color:#F2F2F2;
+}
+
+a{
+    text-decoration: none !important;
+    color: #000000 !important;
+}
+
+@media (max-width:768px) {
+
+    body{
+        background:url(images/map.jpg), rgba(0, 0, 0, 0.7);
+        background-attachment: fixed;
+        position: relative;
+        visibility: hidden; 
+    }
+
+
+
+    .part2{
+        display: flex;
+        justify-self: center;
+    }
+
+    .rounded-border{
+        position: absolute;
+        height:22rem;
+        width:22rem;
+        left:50%;
+        border: 1px solid #ffffff;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 10px rgba(95, 95, 95, 0.25);
+        border-radius: 10px;
+        margin-top: 5rem;
+        text-align: center;
+        visibility: visible;
+    }
+    .rounded-border2{
+        position: absolute;
+        background: url(images/map.jpg) ;
+        background-attachment: fixed;
+        left:50%;
+        height:18rem;
+        width:22rem;
+        border: 1px solid #ffffff;
+        box-shadow: 0px 4px 10px rgba(95, 95, 95, 0.25);
+        border-radius: 10px;
+        margin-top: 28rem;
+        visibility: visible;
+    }
+
+    .side-nav{
+        position: absolute;
+        height: 100vh;
+        width:22rem;
+        border:1px solid #ffffff;
+        border-radius: 0px 20px 20px 0px;
+        background: #F8F8F8;
+        box-shadow: 0px 4px 10px rgba(95, 95, 95, 0.25);
+        visibility: hidden;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width:550px){
+    .rounded-border{
+        position: absolute;
+        left:26%;
+        visibility: visible;
+    }
+    .rounded-border2{
+        position: absolute;
+        left:26%;
+        visibility: visible;
+    }
+}
+
+@media (max-width:450px){
+    .rounded-border{
+        position: absolute;
+        left:12%;
+        visibility: visible;
+    }
+    .rounded-border2{
+        position: absolute;
+        left:12%;
+        visibility: visible;
+    }
+}
+@media (max-width:400px){
+    .rounded-border{
+        position: absolute;
+        left:5%;
+        visibility: visible;
+    }
+    .rounded-border2{
+        position: absolute;
+        left:5%;
+        visibility: visible;
+    }
+}
+
